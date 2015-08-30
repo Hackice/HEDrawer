@@ -14,6 +14,7 @@
 		8F55995D1B91C2B400791C28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F55995C1B91C2B400791C28 /* Images.xcassets */; };
 		8F5599601B91C2B400791C28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F55995E1B91C2B400791C28 /* LaunchScreen.xib */; };
 		8F55996C1B91C2B400791C28 /* HEDrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F55996B1B91C2B400791C28 /* HEDrawerTests.m */; };
+		8F5599771B92D16500791C28 /* HEDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5599761B92D16500791C28 /* HEDrawerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8F5599651B91C2B400791C28 /* HEDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F55996A1B91C2B400791C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F55996B1B91C2B400791C28 /* HEDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HEDrawerTests.m; sourceTree = "<group>"; };
+		8F5599751B92D16500791C28 /* HEDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEDrawerController.h; sourceTree = "<group>"; };
+		8F5599761B92D16500791C28 /* HEDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEDrawerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				8F5599541B91C2B400791C28 /* AppDelegate.m */,
 				8F5599561B91C2B400791C28 /* ViewController.h */,
 				8F5599571B91C2B400791C28 /* ViewController.m */,
+				8F5599751B92D16500791C28 /* HEDrawerController.h */,
+				8F5599761B92D16500791C28 /* HEDrawerController.m */,
 				8F5599591B91C2B400791C28 /* Main.storyboard */,
 				8F55995C1B91C2B400791C28 /* Images.xcassets */,
 				8F55995E1B91C2B400791C28 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F5599581B91C2B400791C28 /* ViewController.m in Sources */,
+				8F5599771B92D16500791C28 /* HEDrawerController.m in Sources */,
 				8F5599551B91C2B400791C28 /* AppDelegate.m in Sources */,
 				8F5599521B91C2B400791C28 /* main.m in Sources */,
 			);

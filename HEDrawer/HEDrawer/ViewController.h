@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 Hackice. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HEDrawerController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : HEDrawerController
 
 
 @end
